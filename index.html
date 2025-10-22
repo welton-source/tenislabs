@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TenisLabs - O futuro dos tênis inteligentes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="top-nav">
+    <div class="container">
+      <div class="logo">TenisLabs</div>
+      <nav class="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#colecao">Coleção</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato" class="btn-link">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="tag">Tecnologia esportiva premium</span>
+          <h1>Todos os tênis modernos em um só lugar.</h1>
+          <p>Experimente a próxima geração de calçados com sensores integrados, ajuste automático e desempenho sob medida para cada corrida. Desenvolvido no Brasil, pensado para o mundo.</p>
+          <div class="hero-actions">
+            <a href="#colecao" class="btn btn-primary">Ver lançamentos</a>
+            <a href="#contato" class="btn btn-secondary">Agendar demonstração</a>
+          </div>
+          <ul class="hero-highlights">
+            <li>
+              <strong>+10k</strong>
+              <span>Atletas confiando na TenisLabs</span>
+            </li>
+            <li>
+              <strong>24h</strong>
+              <span>Suporte premium em português</span>
+            </li>
+            <li>
+              <strong>Eco</strong>
+              <span>Materiais recicláveis certificados</span>
+            </li>
+          </ul>
+        </div>
+        <div class="hero-visual">
+          <div class="floating-card principal">
+            <div class="produto-img"></div>
+            <div class="produto-info">
+              <h2>AeroFlux Pro</h2>
+              <p>Amortecimento responsivo com placa de fibra.</p>
+              <div class="preco">
+                <span>R$ 1.299</span>
+                <small>ou 12x de R$ 118,90</small>
+              </div>
+            </div>
+          </div>
+          <div class="floating-card destaque">
+            <div class="minicard">
+              <span>Sensores ativos</span>
+              <strong>+35%</strong>
+              <small>Melhor desempenho</small>
+            </div>
+            <div class="minicard">
+              <span>Feedback em tempo real</span>
+              <strong>App exclusivo</strong>
+              <small>IOS & Android</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="colecao" id="colecao">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Coleção 2024</span>
+          <h2>Tênis populares</h2>
+          <p>Seleção curada pelo nosso time técnico com foco em performance, conforto e estilo para todas as distâncias.</p>
+        </div>
+        <div class="collection-layout">
+          <article class="collection-card hero-collection">
+            <span class="collection-label">Nova coleção</span>
+            <h3>Coleção Cinética 2024</h3>
+            <p>Peças autorais com sensores integrados, cabedais respiráveis e personalização via app TenisLabs Studio.</p>
+            <div class="collection-meta">
+              <span class="price-chip">a partir de R$ 699</span>
+              <a href="#contato" class="btn btn-secondary">Agendar teste guiado</a>
+            </div>
+            <div class="floating-shoe shoe-alpha"></div>
+          </article>
+          <div class="collection-side">
+            <article class="collection-card story-card">
+              <h3>20 anos de laboratório</h3>
+              <p>Desde 2004 combinando biomecânica, dados e design brasileiro para calçados que amplificam cada passada.</p>
+              <div class="story-metric">
+                <strong>+320</strong>
+                <span>protótipos aprovados por atletas.</span>
+              </div>
+              <a href="#sobre" class="link-btn">Conheça nossos bastidores</a>
+              <div class="floating-shoe shoe-beta"></div>
+            </article>
+            <article class="collection-card community-card">
+              <h3>Conecte-se com os drops</h3>
+              <p>Receba alertas de coleções cápsula, experiências imersivas e acesso antecipado ao clube TenisLabs.</p>
+              <a href="#contato" class="btn btn-primary">Participar da lista VIP</a>
+              <div class="floating-shoe shoe-gamma"></div>
+            </article>
+          </div>
+        </div>
+
+        <div class="category-stack">
+          <div class="category-heading">
+            <span class="tag soft">Categorias em destaque</span>
+            <a href="#servicos" class="link-cta">Ver consultoria personalizada</a>
+          </div>
+          <div class="category-pills">
+            <button class="category-pill active" type="button" data-category="all" aria-pressed="true">
+              <span class="icon">✨</span>
+              <div>
+                <strong>Todos</strong>
+                <small>Confira os principais lançamentos TenisLabs</small>
+              </div>
+            </button>
+            <button class="category-pill" type="button" data-category="velocidade" aria-pressed="false">
+              <span class="icon">⚡</span>
+              <div>
+                <strong>Velocidade</strong>
+                <small>Resposta explosiva para tiros curtos</small>
+              </div>
+            </button>
+            <button class="category-pill" type="button" data-category="clima" aria-pressed="false">
+              <span class="icon">🌧️</span>
+              <div>
+                <strong>Clima adverso</strong>
+                <small>Sola antiderrapante e membrana repelente</small>
+              </div>
+            </button>
+            <button class="category-pill" type="button" data-category="urbano" aria-pressed="false">
+              <span class="icon">🌆</span>
+              <div>
+                <strong>Urbano smart</strong>
+                <small>Estilo premium com sensores invisíveis</small>
+              </div>
+            </button>
+            <button class="category-pill" type="button" data-category="trail" aria-pressed="false">
+              <span class="icon">🏔️</span>
+              <div>
+                <strong>Trail e aventura</strong>
+                <small>Tração inteligente e proteção extrema</small>
+              </div>
+            </button>
+          </div>
+        </div>
+
+        <div class="product-grid">
+          <article class="collection-product highlight" data-categories="velocidade,urbano">
+            <div class="product-head">
+              <span class="badge badge-secondary">Bestseller</span>
+              <span class="price-chip">R$ 1.149</span>
+            </div>
+            <h3>Pulse Runner X</h3>
+            <p>Estabilidade inteligente, ajuste automático e relatórios em português para elevar sua estratégia de prova.</p>
+            <div class="product-media neon-blue"></div>
+            <div class="product-actions">
+              <a href="#servicos" class="btn btn-secondary">Detalhes técnicos</a>
+              <a href="#contato" class="btn btn-primary">Comprar agora</a>
+            </div>
+          </article>
+          <article class="collection-product" data-categories="velocidade,clima">
+            <div class="product-head">
+              <span class="badge">Novo</span>
+              <span class="price-chip">R$ 999</span>
+            </div>
+            <h3>Velocity Storm</h3>
+            <p>Cabedal respirável, espuma híbrida e chip de telemetria que aprende com sua passada em tempo real.</p>
+            <div class="product-media neon-pink"></div>
+            <a href="#contato" class="link-cta">Agendar experiência guiada</a>
+          </article>
+          <article class="collection-product" data-categories="urbano">
+            <div class="product-head">
+              <span class="badge badge-tertiary">Treino</span>
+              <span class="price-chip">R$ 849</span>
+            </div>
+            <h3>Urban Flow Lite</h3>
+            <p>Design minimalista com sensores de pressão e feedback instantâneo para treinos urbanos e academia.</p>
+            <div class="product-media neon-purple"></div>
+            <a href="#servicos" class="link-cta">Ver plano de personalização</a>
+          </article>
+          <article class="collection-product" data-categories="trail,clima">
+            <div class="product-head">
+              <span class="badge">Edição limitada</span>
+              <span class="price-chip">R$ 1.499</span>
+            </div>
+            <h3>Thunderstrike Evo</h3>
+            <p>Parceria exclusiva com atletas olímpicos. Visual audacioso e performance calibrada para alta intensidade.</p>
+            <div class="product-media neon-green"></div>
+            <a href="#contato" class="link-cta">Garantir convite de compra</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="diferenciais" id="servicos">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Experiência TenisLabs</span>
+          <h2>Por que atletas escolhem a gente?</h2>
+          <p>Combinação única de tecnologia vestível, suporte especializado e consultoria personalizada.</p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="icone">🎯</div>
+            <h3>Ajuste sob medida</h3>
+            <p>Escaneamento 3D gratuito nas lojas parceiras para criar o ajuste ideal para seu pé.</p>
+          </div>
+          <div class="feature-card">
+            <div class="icone">📊</div>
+            <h3>Dados avançados</h3>
+            <p>Dashboard em português com métricas de cadência, impacto e eficiência energética.</p>
+          </div>
+          <div class="feature-card">
+            <div class="icone">🤝</div>
+            <h3>Consultoria humana</h3>
+            <p>Equipe de especialistas disponível 24/7 por chat, vídeo ou presencialmente.</p>
+          </div>
+          <div class="feature-card">
+            <div class="icone">🌱</div>
+            <h3>Sustentabilidade real</h3>
+            <p>Programa de recompra e reciclagem que garante descarte correto e descontos exclusivos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="depoimentos" id="depoimentos">
+      <div class="container depoimentos-layout">
+        <div class="depoimento-destaque">
+          <h2>Histórias de quem acelera com a gente</h2>
+          <p>"Com a TenisLabs consegui reduzir meu tempo nos 21k em 7 minutos. O ajuste é impecável e os dados ajudam meu treinador a adaptar cada treino."</p>
+          <div class="autor">
+            <div class="avatar"></div>
+            <div>
+              <strong>Fernanda Moraes</strong>
+              <span>Atleta amadora & criadora de conteúdo</span>
+            </div>
+          </div>
+        </div>
+        <div class="depoimentos-lista">
+          <article class="card-depoimento">
+            <p>"O suporte em português facilitou muito a adoção da tecnologia com minha equipe. Os insights são claros e acionáveis."</p>
+            <div class="autor">
+              <div class="avatar pequeno"></div>
+              <div>
+                <strong>João Martins</strong>
+                <span>Coach de corrida</span>
+              </div>
+            </div>
+          </article>
+          <article class="card-depoimento">
+            <p>"A integração com meu smartwatch e a bateria de longa duração tornam os treinos mais simples e precisos."</p>
+            <div class="autor">
+              <div class="avatar pequeno"></div>
+              <div>
+                <strong>Larissa Couto</strong>
+                <span>Triatleta</span>
+              </div>
+            </div>
+          </article>
+          <article class="card-depoimento">
+            <p>"Parceria impecável para equipar nossas equipes com inovação de ponta e suporte dedicado."</p>
+            <div class="autor">
+              <div class="avatar pequeno"></div>
+              <div>
+                <strong>Equipe Fênix</strong>
+                <span>Clube de atletismo</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter" id="contato">
+      <div class="container newsletter-grid">
+        <div>
+          <span class="tag">Fique por dentro</span>
+          <h2>Receba novidades, lançamentos e convites exclusivos.</h2>
+          <p>Assine nossa newsletter e seja o primeiro a testar produtos, coleções especiais e eventos TenisLabs no Brasil.</p>
+        </div>
+        <form class="newsletter-form">
+          <label for="email">E-mail corporativo ou pessoal</label>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="voce@empresa.com" required>
+            <button type="submit" class="btn btn-primary">Quero receber</button>
+          </div>
+          <small>Ao enviar, você concorda com nossa Política de Privacidade.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo">TenisLabs</div>
+        <p>Inovação brasileira em calçados inteligentes. Laboratório sediado em São Paulo com distribuição para todo o país.</p>
+      </div>
+      <div>
+        <h4>Mapa do site</h4>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#colecao">Coleção</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="mailto:contato@tenislabs.com">contato@tenislabs.com</a></li>
+          <li>+55 (11) 4002-8922</li>
+          <li>Avenida Paulista, 1500 - São Paulo/SP</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Siga a TenisLabs</h4>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="YouTube">YT</a>
+          <a href="#" aria-label="LinkedIn">IN</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 TenisLabs. Todos os direitos reservados.</p>
+      <div class="footer-links">
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos de Uso</a>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
